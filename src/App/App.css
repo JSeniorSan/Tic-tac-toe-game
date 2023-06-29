@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bigSquare {
+  border: 1px solid black;
+  width: 604px;
+  background-color: rgb(5, 2, 1);
+
+  box-shadow: rgba(255, 255, 255, 0.365) 0 0 20px 1px;
+  /* margin-top: 300px; */
+}
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(240, 128, 128, 0.776);
+  border-width: thin;
+  font-size: 50px;
+  transition: all 0.4s ease-out;
+}
+
+.win-square {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(17, 232, 49, 0.776);
+  border-width: thin;
+  font-size: 50px;
+  transition: all 0.4s ease-out;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.square:hover {
+  background-color: darksalmon;
+}
+.status {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  border: 1px solid black;
+  padding: 50px;
+  background-color: rgba(5, 1, 1, 0.304);
+  border-radius: 20px;
+}
+
+/* .wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+} */
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.reload {
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgba(187, 81, 15, 0.689);
+  border-radius: 5px;
+  box-shadow: rgba(246, 241, 241, 0.192) 0 0 3px 3px;
+  margin-top: 10px;
+  color: rgb(241, 234, 241);
+}
+
+.reload:hover {
+  color: rgb(230, 189, 136);
+  cursor: pointer;
+}
+
+.game {
+  color: rgb(227, 224, 224);
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  padding: 50px 50px;
+  background-color: rgba(15, 12, 8, 0.534);
+  border-radius: 20px;
+}
+
+.road-and-button {
+  display: flex;
+  flex-direction: row;
+
+  /* margin-top: 710px;
+  max-height: 780px; */
+}
+
+.btn {
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgba(189, 51, 51, 0);
+  border-radius: 2px;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.btn:hover {
+  background-color: rgba(240, 248, 255, 0.468);
+  transition: all 0.3s ease;
+  transform: translateY(-3px);
+  box-shadow: rgba(0, 0, 0, 0.39) 0 0 8px 4px;
+  cursor: pointer;
+}
+
+li {
+  font-size: 18px;
+  list-style-type: none;
+  /* max-height: 800px; */
+}
+
+.game-wrapper {
+  background-image: url("C:\Users\vip00\OneDrive\Рабочий стол\для папок\обои\img2.jpg");
+  background-position: right center;
+  background-size: covers;
+  background-attachment: fixed;
+}
+
+.blur {
+  background: rgba(178, 44, 29, 0.205);
+  backdrop-filter: blur(10px);
+  height: 170vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-board {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sort--btn {
+  font-size: 25px;
+  margin: 0 0 280px 80px;
+}
+
+.area-bottom {
+  width: 100%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.767);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.one,
+.two {
+  margin-top: 70px;
+  font-size: 30px;
+  margin-right: 100px;
+}
+
+.one {
+  margin-left: 50px;
+}
+
+.vk,
+.tg,
+.git {
+  margin-bottom: 20px;
+}
