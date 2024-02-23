@@ -66,42 +66,6 @@ function Board(props) {
       <div className="status">{statusGame}</div>
 
       <div className="bigSquare">
-        {/* <Square
-            value={props.currentSquares[0]}
-            handleClickProps={() => handleClick(0)}
-          />
-          <Square
-            value={props.currentSquares[1]}
-            handleClickProps={() => handleClick(1)}
-          />
-          <Square
-            value={props.currentSquares[2]}
-            handleClickProps={() => handleClick(2)}
-          />
-          <Square
-            value={props.currentSquares[3]}
-            handleClickProps={() => handleClick(3)}
-          />
-          <Square
-            value={props.currentSquares[4]}
-            handleClickProps={() => handleClick(4)}
-          />
-          <Square
-            value={props.currentSquares[5]}
-            handleClickProps={() => handleClick(5)}
-          />
-          <Square
-            value={props.currentSquares[6]}
-            handleClickProps={() => handleClick(6)}
-          />
-          <Square
-            value={props.currentSquares[7]}
-            handleClickProps={() => handleClick(7)}
-          />
-          <Square
-            value={props.currentSquares[8]}
-            handleClickProps={() => handleClick(8)}
-          /> */}
         {/* Создание поля при помощи двумерного массива */}
         {Array(3)
           .fill(null)
@@ -135,8 +99,6 @@ function Board(props) {
             );
           })}
       </div>
-
-      {/* ////////////////////////// */}
     </div>
   );
 }

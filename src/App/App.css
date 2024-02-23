@@ -10,7 +10,6 @@
   background-color: rgb(5, 2, 1);
 
   box-shadow: rgba(255, 255, 255, 0.365) 0 0 20px 1px;
-  /* margin-top: 300px; */
 }
 .square {
   width: 200px;
@@ -51,13 +50,6 @@
   border-radius: 20px;
 }
 
-/* .wrapper {
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-} */
 main {
   display: flex;
   flex-direction: row;
@@ -92,9 +84,6 @@ main {
 .road-and-button {
   display: flex;
   flex-direction: row;
-
-  /* margin-top: 710px;
-  max-height: 780px; */
 }
 
 .btn {
@@ -119,11 +108,10 @@ main {
 li {
   font-size: 18px;
   list-style-type: none;
-  /* max-height: 800px; */
 }
 
 .game-wrapper {
-  background-image: url("C:\Users\vip00\OneDrive\Рабочий стол\для папок\обои\img2.jpg");
+  background-image: url("/public/img2.jpg");
   background-position: right center;
   background-size: covers;
   background-attachment: fixed;
